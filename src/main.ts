@@ -417,3 +417,6 @@ function animate() {
   requestAnimationFrame(animate);
 }
 animate();
+
+
+//TODO: on peer disconnect remove all entities from world of which they were the Authority.
